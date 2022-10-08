@@ -1,0 +1,44 @@
+.bigtitle {
+  background-color: gray;
+  text-align: center;
+  color : white;
+}
+
+
+.title {
+  background-color: gray;
+  text-align: center;
+  color : white;
+}
+
+.titleco{
+  text-align: left;
+}
+.text {
+  text-align: center;
+}
+.image{
+  position: absolute;
+  margin-left: 1000px;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+}
+.capture{
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+ #Identité {
+  position: relative;
+  background-color: gray;
+  height: 200px;
+  color: white;
+  padding:30px;}
+#navigation{
+  display: inline-flex;
+
+}
+#navigation li{
+  margin: 20px;

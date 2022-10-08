@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(196, 180, 172);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  background-size: 100%;
+  position: fixed;
+}
+
+#scores {
+  position: fixed;
+  top: 0;
+  left: 47%;
+  font-size: 300%;
+}
+
+#ball{
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  left: 300.5px;
+  top: 183.844px ;
+}
+#paddle1{
+  position: fixed;
+  width: 24px;
+  height: 192px;
+  left: 00%;
+  top: 40%;
+}
+
+#paddle2{
+  position: fixed;
+  width: 24px;
+  height: 192px;
+  left: 99%;
+  top: 40%;
+}

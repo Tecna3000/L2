@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EmptySquareTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-22T13:48:28" hostname="V-PP-47-014" time="0.002">
+  <properties/>
+  <testcase name="testGetTile()" classname="EmptySquareTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

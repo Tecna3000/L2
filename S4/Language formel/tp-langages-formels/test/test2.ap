@@ -1,0 +1,11 @@
+0 a Z A.Z 0
+0 a A A.A 0
+0 b A % 1
+1 b A % 1
+1 a Z A.Z 2
+2 a A A.A 2
+2 b A % 3
+3 b A % 3
+3 % Z % 4
+A 4
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+
+<?import view.GridCanvas?>
+<?import java.lang.Double?>
+<?import java.lang.Integer?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<AnchorPane stylesheets="@DarkTheme.css"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.GridController">
+        <MenuBar AnchorPane.topAnchor="0." AnchorPane.leftAnchor="0." AnchorPane.rightAnchor="0." minHeight="40.">
+                <Menu mnemonicParsing="false" text="Uniform Tiles">
+                        <MenuItem mnemonicParsing="false" onAction="#updateEmptyUniformTile" text="Empty">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateFirstNameOneUniformTile" text="Firstname 1">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateLastNameOneUniformTile" text="Lastname 1">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateFirstNameTwoUniformTile" text="Firstname 2">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateLastNameTwoUniformTile" text="Lastname 2">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateRandomColorUniformTile" text="Random color">
+                        </MenuItem>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Wang Tiles">
+                        <MenuItem mnemonicParsing="false" onAction="#updateRandomWangTile" text="Random">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateRandomConstrainedWangTile" text="Random constrained">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateRandomWangTileSet" text="Random tile set">
+                        </MenuItem>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Truchet Tiles">
+                        <MenuItem mnemonicParsing="false" onAction="#updateRandomTruchetTile" text="Random">
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#updateConstrainedTruchetTile" text="Constrained">
+                        </MenuItem>
+                </Menu>
+        </MenuBar>
+        <GridCanvas AnchorPane.topAnchor="40."
+                    xmlns="http://javafx.com/javafx"
+                    xmlns:fx="http://javafx.com/fxml"
+                    fx:id="gridCanvas">
+                <tileWidth>
+                        <Double fx:value="20"/>
+                </tileWidth>
+                <tileHeight>
+                        <Double fx:value="20"/>
+                </tileHeight>
+                <numberOfColumns>
+                        <Integer fx:value="50"/>
+                </numberOfColumns>
+                <numberOfRows>
+                        <Integer fx:value="50"/>
+                </numberOfRows>
+        </GridCanvas>
+</AnchorPane>

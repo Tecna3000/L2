@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agency.TestRentalAgency" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-12-01T10:00:09" hostname="V-PJ-47-031" time="0.119">
+  <properties/>
+  <testcase name="testConstructionOfTooOldVehicle()" classname="agency.TestRentalAgency" time="0.068"/>
+  <testcase name="testIsNew()" classname="agency.TestRentalAgency" time="0.002"/>
+  <testcase name="testToString()" classname="agency.TestRentalAgency" time="0.015"/>
+  <testcase name="testConstructionOfFutureVehicle()" classname="agency.TestRentalAgency" time="0.001"/>
+  <testcase name="testConstructionOfTooOldCar()" classname="agency.TestRentalAgency" time="0.002"/>
+  <testcase name="testGetters()" classname="agency.TestRentalAgency" time="0.004"/>
+  <testcase name="testConstructionOfVehicleWithNoSeats()" classname="agency.TestRentalAgency" time="0.001"/>
+  <testcase name="testThatCarImplementsVehicle()" classname="agency.TestRentalAgency" time="0.001"/>
+  <testcase name="testDailyRentalPrice()" classname="agency.TestRentalAgency" time="0.002"/>
+  <testcase name="testConstructionOfFutureCar()" classname="agency.TestRentalAgency" time="0.002"/>
+  <testcase name="testAddingSameCar()" classname="agency.TestRentalAgency" time="0.001"/>
+  <testcase name="testRemovingExistingVehicle()" classname="agency.TestRentalAgency" time="0.011"/>
+  <testcase name="testAddingCars()" classname="agency.TestRentalAgency" time="0.003"/>
+  <system-out><![CDATA[[Car Apple Catalina 2019 (3 seats) : 120.0€]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

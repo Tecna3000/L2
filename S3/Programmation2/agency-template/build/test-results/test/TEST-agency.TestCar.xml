@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agency.TestCar" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-01T10:00:09" hostname="V-PJ-47-031" time="0.009">
+  <properties/>
+  <testcase name="testConstructionOfTooOldVehicle()" classname="agency.TestCar" time="0.001"/>
+  <testcase name="testIsNew()" classname="agency.TestCar" time="0.001"/>
+  <testcase name="testToString()" classname="agency.TestCar" time="0.0"/>
+  <testcase name="testConstructionOfFutureVehicle()" classname="agency.TestCar" time="0.0"/>
+  <testcase name="testConstructionOfTooOldCar()" classname="agency.TestCar" time="0.0"/>
+  <testcase name="testGetters()" classname="agency.TestCar" time="0.001"/>
+  <testcase name="testConstructionOfVehicleWithNoSeats()" classname="agency.TestCar" time="0.001"/>
+  <testcase name="testThatCarImplementsVehicle()" classname="agency.TestCar" time="0.0"/>
+  <testcase name="testDailyRentalPrice()" classname="agency.TestCar" time="0.0"/>
+  <testcase name="testConstructionOfFutureCar()" classname="agency.TestCar" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

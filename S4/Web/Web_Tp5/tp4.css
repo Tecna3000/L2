@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(170, 255, 244);
+}
+#input{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.content{
+    margin-left: 40%;
+}
+h1{
+    font-style: italic;
+}

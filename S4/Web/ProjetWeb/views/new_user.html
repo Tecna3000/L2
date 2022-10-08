@@ -1,0 +1,27 @@
+
+{{> header}}
+
+    
+  <div class="log">
+    
+    <form action="/new_user" method="post">
+      <h4>Entrez un nom d'utilisateur</h4>
+      <input class="input form-control mb-2 " type="text" placeholder="username" name="name" value="">
+      <h4 >Entrez un mot de passe</h4>
+      <input class="input form-control mb-2" type="password" placeholder="password" name="password" value="">
+      <h4>S'incrire autant que:</h4>
+      <select class="input form-select form-select-sm" name="role" aria-label=".form-select-sm example" >
+        <option selected>Selectionnez...</option>
+        <option name ="utilisateur"value="utilisateur" >utilisateur</option>
+        <option name ="admin" value="admin">admin</option>
+      </select>
+      <h4 >Entrez votre code d'invitation</h4>
+      <input class="input form-control mb-2" name="code" type="password" placeholder="code" value="">
+      <p><input class="btn button mb-2" type="submit" name="" value="s'inscrir"></p>
+    </form> 
+      
+  </div>
+
+{{> footer}}
+
+ 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EmptyGridTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-22T13:48:28" hostname="V-PP-47-014" time="0.007">
+  <properties/>
+  <testcase name="testGetNumberOfRows()" classname="EmptyGridTest" time="0.003"/>
+  <testcase name="testGetNumberOfColumns()" classname="EmptyGridTest" time="0.001"/>
+  <testcase name="testGetSquare()" classname="EmptyGridTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

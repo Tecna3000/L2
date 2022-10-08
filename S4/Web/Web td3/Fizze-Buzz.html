@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Fizze-Buzz </title>
+
+  </head>
+  <div> </p> compteur: 0 </p>
+  </div>
+  <input  onclick="increment()" id = "button" type="button" value="Start" >
+  <link rel= "stylesheet" href="Fizze-Buzz.css">
+
+
+<script>
+  var button = document.querySelector('input');
+  button.addEventListener('click', update);
+
+  function update() {
+    if (button.value === 'Start') {
+      button.value = 'Stop';
+    } else {
+    button.value = 'Start';
+    }
+  }
+
+
+  var val = 0;
+
+  function increment() {
+      if( button.value === 'Stop'){
+        val+= 1;
+      }
+  }
+
+
+
+</script>

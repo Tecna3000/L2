@@ -1,0 +1,51 @@
+.background{
+  background-color:#90bcff
+}
+#Compétences{
+  margin-top:212px;
+}
+#Langues{
+  margin-top: 390px;
+  height: 400px
+}
+.bigtitle {
+  background-color: #656eec;
+  text-align: center;
+  color : white;
+  height: 70px;
+
+}
+.title {
+  background-color: white;
+  text-align: center;
+  color : rgb(26, 79, 158);
+}
+
+.left {
+  position: absolute;
+  width : 250px;
+  background-color: #656eec;
+  color : white;
+  align-content: left;
+}
+
+.right{
+  position: relative;
+  margin-left:250px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+.image{
+  position: relative;
+  right: 5%;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+}
+.capture{
+  position: relative;
+  width: 50%;
+  height: 50%;
+}

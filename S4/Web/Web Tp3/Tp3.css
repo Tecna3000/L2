@@ -1,0 +1,38 @@
+body{
+  background-color: brown;
+}
+#game_selection{
+  text-align: center;
+  margin-top: 10%;
+}
+#game1{
+  text-align: center;
+  margin-top: 10%;
+}
+#game2{
+  text-align: center;
+  margin-top: 10%;
+}
+#try_button{
+  background-color: gray;
+  color: white;
+}
+#message1{
+  color: white;
+}
+#message2{
+  color: white
+}
+#smaller_button{
+  background-color: blue;
+  color: white;
+}
+#bigger_button{
+  background-color: red;
+  color :white;
+}
+#found_button{
+  background-color:green;
+  color: white;
+}
+#restart_button2{}

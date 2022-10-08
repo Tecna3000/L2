@@ -1,0 +1,15 @@
+{{> header}}
+
+  <div class="create">
+    <div id="footer">
+      <form action="/delete/{{id}}" method="post">
+        <h4>Êtes-vous sûr de vouloir supprimer le mot "{{key}}" ?</h4>
+        <div>
+          <input class=" btn button3 mb-3" type="submit" value="Supprimer">
+          <a class=" btn button3 mb-3" href="/search">Annuler<a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+{{> footer}}
